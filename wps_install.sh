@@ -26,6 +26,11 @@ rm -rf wps_symbol_fonts
 cd /tmp
 wget http://wps-community.org/download/dicts/es_ES.zip
 unzip es_ES.zip
-sudo mv es_ES /opt/kingsoft/wps-office/office6/dicts/
+if [ ! -d /opt/kingsoft/wps-office/office6/dicts ]
+then
+sudo mv es_ES /opt/kingsoft/wps-office/office6/dicts
+else
+echo ya existe
+fi
 sudo rm es_ES.zip
 )
