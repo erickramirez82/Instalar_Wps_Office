@@ -7,11 +7,10 @@ Instalar Wps office para debian o ubuntu
 
 
 ## Instalación automática mediante script <a id="chapter-1"></a>
-
-
-
-
-
+Abra una terminal de comandos y ejecute:
+```
+curl https://raw.githubusercontent.com/erickramirez82/Instalar_Wps_Office/master/wps_install.sh | bash
+```
 ## Instalación pasa a paso instalar Wps Office <a id="chapter-2"></a>
 
 ## wps office Ubuntu o Debian
